@@ -1,0 +1,159 @@
+*{
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.corpo{
+    width:50%;
+    margin: 0 auto;
+    min-width: 320px;
+    background-color: rgb(0, 118, 221);
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px   ;
+}
+
+.formulario h1{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.formulario form{
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(233, 233, 233);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #000;
+}
+
+form input[type="text"]{
+    min-width: 300px;
+    padding: 7px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form h2{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: rgb(61, 61, 61);
+}
+
+.sexo{
+    display:flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+#sexo-m{
+    display: none;
+}
+
+#sexo-f{
+    display: none;
+}
+
+.choose-genre-m,.choose-genre-f{
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+}
+
+.choose-genre-m{
+    border-left: 2px solid rgb(0, 143, 226);
+    border-top: 2px solid rgb(0, 143, 226);
+    border-bottom:2px solid rgb(0, 143, 226);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.choose-genre-f{
+    border: 2px solid rgb(0, 143, 226);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.select-genre{
+    background-color:rgb(0, 143, 226); ;
+    color: #fff;
+    
+}   
+
+.area-idade,.area-peso,.area-altura,.area-botao,.area-sexo{
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+}
+
+.botao{
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px #000;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.blue{
+    background-color: rgb(0, 143, 226);
+}
+
+.orange{
+    background-color: rgb(255, 119, 8);
+}
+
+.blue:hover{
+    background-color: rgb(34, 174, 255);
+    transition: all 0.3s linear;
+}
+
+.orange:hover{
+    background-color: rgb(253, 132, 33);
+    transition: all 0.3s linear;
+}
+
+.resultado-final{
+    font-weight: bold;
+}
+
+.area-resultado{
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.area-resultado p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.area-resultado span{
+    font-size: 20px;
+}
+
+.area-resultado h3{
+    font-size: 25px;
+}
